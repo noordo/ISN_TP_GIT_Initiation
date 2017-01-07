@@ -81,24 +81,24 @@ En informatique, une révision représente l'instance d'un fichier à un moment 
 
   * commencez par intégrer devNoordoXXX à devGROUPE :
 
-        git checkout master
-        git checkout -b devGROUPE
-        git merge devNoordoXXX
+          git checkout master
+          git checkout -b devGROUPE
+          git merge devNoordoXXX
         
   * puis, essayez d'intégrer la seconde branche à devGROUPE :
 
-        git merge devNoordoYYY
+          git merge devNoordoYYY
 
   * Réglez le conflit constaté en éditant le fichier README.md. Modifiez la mise en page de la liste conformément à vos attentes. 
   
   * Puis déclarez que le conflit est réglé, via les commandes :
 
-        git add README.md
-        git commit
+          git add README.md
+          git commit
 
 * Publiez l'ensemble des révisions dans votre espace public :
 
-        git push origin devGROUPE
+          git push origin devGROUPE
 
 * Allez constatez les changements sur GitHub.
 
