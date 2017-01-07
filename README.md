@@ -3,7 +3,6 @@
 
 ## TP d'initiation à la pratique de GIT
 
-
 ### Fork et clonage du projet
 
 * Vous vous êtes mis par groupe de deux et vous avez chacun créé un compte sur GitHub (nous désignerons par noordoXXX et noordoYYY vos identifiants respectifs dans ce qui suit).
@@ -12,6 +11,13 @@
 
         git clone https://github.com/noordoXXX/ISN_TP_GIT_Initiation.git
 
+### Configuration de git pour préciser notre identité
+
+* Indiquez à Git votre identifiant et mail donnés lors de votre inscription sur GitHub :
+
+        git config --global user.name "noordoXXX"
+        git config --global user.email mon.email@exemple.com
+        
 ### Ajout d'une référence pour désigner le dépôt officiel du projet
 
 * Vérifier qu'une référence (origin) existe  pour désigner le dépôt à partir duquel vous avez cloné le projet :
