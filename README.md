@@ -138,4 +138,5 @@ En informatique, une révision représente l'instance d'un fichier à un moment 
 --------------------------------------------
 
 * GM alias noordo,
-* TP alias noordo410.
+* TP alias noordo410,
+* QL alias noordo406.
